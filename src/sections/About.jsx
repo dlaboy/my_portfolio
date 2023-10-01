@@ -5,7 +5,7 @@ import './About.css'
 
 export  function About() {
   return (
-    <Row className='d-flex flex-md-row flex-column shadow-lg'>
+    <Row className='about-me d-flex flex-md-row flex-column shadow-lg'>
       <Col className='image d-flex justify-content-center align-items-center'>
       </Col>
       <Col className='m-3 col text-start d-flex flex-column'>

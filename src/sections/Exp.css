@@ -1,0 +1,44 @@
+.city{
+    background: linear-gradient(rgba(1, 1, 1, 0.889),transparent),url('/pexels-gabriela-palai-395196.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top
+    
+
+
+}
+.tar{
+    height: 35vh;
+    max-height: 20rem;
+    background-color: rgba(56, 55, 55, 0.948);
+    width: 20vw;
+    min-width: 12rem;
+
+
+}
+.experience{
+    background-color:rgb(21, 102, 102) ;
+}
+.download{
+    /* background-color: rgba(181, 113, 86, 0.645); */
+    background-color: rgba(77, 49, 38, 0.645);
+
+    color: whitesmoke;
+    font-size: large;
+}
+.download:hover{
+    background-color: rgb(186, 74, 30);
+    /* background-color: rgb(37, 15, 6); */
+
+    font-size: larger;
+    transition: all ease 0.5s;
+    
+
+
+}
+.web{
+    height: 38%;
+    max-width: 10rem;
+    width: 30%;
+    min-width:  6rem;
+}

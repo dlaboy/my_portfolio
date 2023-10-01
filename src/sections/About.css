@@ -7,9 +7,13 @@
     text-align: justify;
 }
 .image{
-    background: linear-gradient(rgb(37, 37, 37),transparent),url('/public/pexels-christina-morillo-1181298.jpg');
+    background: linear-gradient(rgb(37, 37, 37),transparent),url('/pexels-christina-morillo-1181298.jpg');
     background-size: cover;
     background-position: right;
 
 
 }
+/* .about-me{
+    height: 100vh;
+
+} */
