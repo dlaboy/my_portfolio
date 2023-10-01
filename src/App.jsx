@@ -7,6 +7,8 @@ import {Cont} from './sections/Cont';
 import {WebDev} from './sections/WebDev';
 import {Exp} from './sections/Exp';
 
+import { Spring } from 'react-spring';
+
 
 
 
@@ -15,6 +17,7 @@ function App() {
 
   return (
     <>
+    
       <Home/>
       <About/>
       <Exp/>

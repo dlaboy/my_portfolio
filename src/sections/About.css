@@ -1,0 +1,15 @@
+.textou{
+    max-width: 75vw;
+}
+
+.te{
+    line-height: 40px;
+    text-align: justify;
+}
+.image{
+    background: linear-gradient(rgb(37, 37, 37),transparent),url('/public/pexels-christina-morillo-1181298.jpg');
+    background-size: cover;
+    background-position: right;
+
+
+}
