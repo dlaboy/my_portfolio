@@ -24,7 +24,7 @@ export  function MyNav() {
     <animated.div style={springs}>
     <Navbar  expand="lg" className="bg-body-tertiary">
     <Container >
-      <Navbar.Brand href="#home" className='w-100 '><h1 className="fw-bolder">DL</h1></Navbar.Brand>
+      <Navbar.Brand href="#home" className='w-100 '><h1 className="fw-bolder" >DL</h1></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav"  className='w-100'>
         

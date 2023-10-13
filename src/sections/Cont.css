@@ -1,0 +1,38 @@
+.contactou{
+    height: 10vh;
+}
+/* .titulazo-contact{
+    color: rgb(135, 204, 204);
+} */
+.titulazo-contact{
+    color: whitesmoke;
+    /* color: rgb(172, 111, 19); */
+}
+
+#contact{
+    height: 90vh;
+    /* background: linear-gradient(rgb(13, 60, 60),transparent),url('/pexels-stephan-seeber-1261728.jpg') ; */
+    background: linear-gradient(rgb(26, 5, 52),rgba(26, 5, 52, 0.677),rgba(27, 6, 55, 0.551),rgba(39, 8, 79, 0.392)),url('/pexels-stephan-seeber-1261728.jpg') ;
+    background-size: cover;
+    background-position: bottom;
+    color: grey;
+   
+
+
+
+}
+
+.tarjeee{
+    height: 40vh;
+    /* background: linear-gradient(rgba(0, 0, 0, 0),transparent),url('./imgs/pexels-photo-3137052.jpg'); */
+    width: 25vw;
+    min-width: 12rem;
+
+}
+.tarjeee:hover{
+    opacity: 3rem;
+    cursor: pointer;
+    background-color: rgb(74, 74, 74);
+
+    
+}

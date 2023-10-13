@@ -1,10 +1,12 @@
 .textou{
-    max-width: 75vw;
+    background-color: rgb(39, 8, 79);
+    color: white;
 }
 
 .te{
     line-height: 40px;
-    text-align: justify;
+    /* text-align: justify; */
+    width: 75%;
 }
 .image{
     background: linear-gradient(rgb(37, 37, 37),transparent),url('/pexels-christina-morillo-1181298.jpg');
@@ -13,7 +15,12 @@
 
 
 }
+
 /* .about-me{
     height: 100vh;
 
 } */
+
+.about-me{
+    min-height: 500px;
+}

@@ -1,0 +1,68 @@
+.webdev{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.web-images{
+  /* height: 48%; */
+  max-width: 150px;
+  max-height: 150px;
+  /* width: 40%; */
+  /* min-width:  6rem; */
+}
+.gcs-image{
+  max-width: 100px;
+  max-height: 100px;
+}
+.orthocare{
+  background: linear-gradient(rgba(1, 50, 113, 0.732),rgba(1, 113, 104, 0.732)),url('public/orthocare_cont/ortho_card_img.jpg');
+  background-size: cover;
+}
+#tarjee {
+    height: 35vh;
+    max-height: 20rem;
+    /* background-color: rgba(173, 173, 173, 0.948); */
+    background-image: url('public/Screenshot/ 2023-09-21/ 181740.png');
+    width: 20vw;
+    min-width: 12rem;
+    color: black;
+
+}
+.gcs{
+  background: linear-gradient(rgba(50, 1, 113, 0.732),rgba(1, 50, 113, 0.732)),url('public/GCS.png');
+  background-size: cover;
+  background-position: right;
+}
+.proj-back{
+  background-color: rgb(41, 41, 41);
+}
+
+.oasis{
+  background: linear-gradient(rgba(113, 1, 85, 0.732),rgba(113, 1, 85, 0.732)),url('public/oasis/Tezza-2392.JPG');
+  background-size: cover;
+  background-position: right;
+}
+#tarjee:hover{
+    opacity: 3rem;
+    cursor: pointer;
+    /* background-color: rgb(183, 178, 178); */
+
+
+    
+}
+.orthocare-name{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+/* src/components/BackgroundChanger.css */
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }

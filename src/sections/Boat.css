@@ -1,0 +1,9 @@
+
+#roboboat{
+    height: 85vh;
+}
+.deck-wrapper{
+    position: relative;
+    top: 100px;
+    right: 0px;
+}

@@ -1,24 +1,39 @@
+.exp-header{
+    color: rgb(39, 8, 79);
+}
+
 .city{
-    background: linear-gradient(rgba(1, 1, 1, 0.889),transparent),url('/pexels-gabriela-palai-395196.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top
+    /* background: linear-gradient(rgba(1, 1, 1, 0.889),transparent),url('/pexels-gabriela-palai-395196.jpg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: top; */
+    
+    height: 100vh;
+    color: grey;
+    position: relative;
+    top: -80px;
+    width: 90%;
     
 
 
 }
-.tar{
+#tarje{
     height: 35vh;
     max-height: 20rem;
     background-color: rgba(56, 55, 55, 0.948);
     width: 20vw;
     min-width: 12rem;
 
+}
+#tarje:hover{
+    opacity: 3rem;
+    cursor: pointer;
+    background-color: rgb(74, 74, 74);
 
+
+    
 }
-.experience{
-    background-color:rgb(21, 102, 102) ;
-}
+
 .download{
     /* background-color: rgba(181, 113, 86, 0.645); */
     background-color: rgba(77, 49, 38, 0.645);
@@ -27,7 +42,7 @@
     font-size: large;
 }
 .download:hover{
-    background-color: rgb(186, 74, 30);
+    background-color: rgb(226, 137, 14);
     /* background-color: rgb(37, 15, 6); */
 
     font-size: larger;
@@ -36,9 +51,24 @@
 
 
 }
+.text{
+    color: rgb(226, 137, 14);
+
+}
+.back, .front{
+    height: 90%;
+}
+
 .web{
     height: 38%;
-    max-width: 10rem;
+    max-width: 5rem;
     width: 30%;
     min-width:  6rem;
 }
+.exp-images{
+    /* height: 48%; */
+    max-width: 75px;
+    max-height: 75px;
+    /* width: 40%; */
+    /* min-width:  6rem; */
+  }

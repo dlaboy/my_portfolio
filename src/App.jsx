@@ -9,12 +9,12 @@ import {Exp} from './sections/Exp';
 
 import { Spring } from 'react-spring';
 import React from 'react'
+import { Footer } from './sections/Footer';
 
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -25,6 +25,7 @@ function App() {
       <Boat/>
       <WebDev/>
       <Cont/>
+      <Footer/>
 
     </>
   )
