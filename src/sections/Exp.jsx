@@ -90,7 +90,7 @@ export  function Exp() {
           <div className="col d-flex flex-column front justify-content-center align-items-center border-end">
             <div className="col text-center">
               <img className='exp-images' src="./website.png" alt="" />
-              <h3 className='mt-3'>Front End</h3>
+              <h3 className='mt-3 fw-bold'>Front End</h3>
             </div>
             <div className="col w-100 d-flex flex-column align-items-center">
               <div className=""><h4 className='text fw-bold'>Languages</h4></div>
@@ -117,7 +117,7 @@ export  function Exp() {
           <div className="col d-flex flex-column back justify-content-center align-items-center border-end ">
             <div className="col text-center">
                 <img  className="exp-images"src="./database.png" alt="" />
-                <h3 className='mt-3'>Back End</h3>
+                <h3 className='mt-3 fw-bold'>Back End</h3>
             </div>
       
             <div className="col w-100 d-flex flex-column align-items-center h-100">
