@@ -4,9 +4,9 @@ import { useDrag } from 'react-use-gesture'
 import './Deck.css'
 
 const images = [
-    "/img1.JPG",
-     "/img2.JPG",
-     "/img3.JPG",
+    "./img1.JPG",
+     "./img2.JPG",
+     "./img3.JPG",
    
   
    ]

@@ -58,7 +58,7 @@ export  function Cont() {
         <div className="cards-wrapper col d-flex flex-wrap align-items-center justify-content-center bg-dark ">
           <div className=" col d-flex flex-column text-center  tarjeee email-card">
             <div className="col ">
-              <img src="/email(1).png" className="contactou" alt=""/>
+              <img src="./email(1).png" className="contactou" alt=""/>
             </div>
             <div className="col ">
               <h4>Email</h4>
@@ -75,7 +75,7 @@ export  function Cont() {
           </div>
           <div className="  col d-flex flex-column text-center  tarjeee phone-card">
             <div className="col ">
-              <img src="/phone-call(4).png" className="contactou" alt=""/>
+              <img src="./phone-call(4).png" className="contactou" alt=""/>
             </div>
             <div className="col ">
               <h4>Phone </h4>
@@ -90,7 +90,7 @@ export  function Cont() {
           </div>
           <div className="col  d-flex flex-column text-center  tarjeee linkedin-card">
             <div className="col ">
-              <img src="/linkedin(1).png" className="contactou" alt=""/>
+              <img src="./linkedin(1).png" className="contactou" alt=""/>
             </div>
             <div className="col ">
               <h4>LinkedIn</h4>

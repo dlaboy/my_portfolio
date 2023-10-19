@@ -118,17 +118,17 @@ export  function WebDev() {
                     Landing page for emerging orthopedics company. Created logo and color palette from scratch. Integrated Professional Emails and Hosting. 
                   </div>
                   <div className="">
-                    <img src="/tools/html-5.png" alt="" className='tools m-1'/>
-                    <img src="/tools/css-3.png" alt="" className='tools m-1'/>
-                    <img src="/tools/js.png" alt="" className='tools m-1'/>
-                    <img src="/tools/namecheap-removebg-preview.png" alt="" className='tools m-1'/>
-                    <img src="/tools/blue.png" alt="" className='tools m-1'/>
+                    <img src="./tools/html-5.png" alt="" className='tools m-1'/>
+                    <img src="./tools/css-3.png" alt="" className='tools m-1'/>
+                    <img src="./tools/js.png" alt="" className='tools m-1'/>
+                    <img src="./tools/namecheap-removebg-preview.png" alt="" className='tools m-1'/>
+                    <img src="./tools/blue.png" alt="" className='tools m-1'/>
                   </div>
                   <a href="https://orthocare.life/"><button className='btn btn-outline-light mt-1 rounded-0'>Visit website</button></a>
 
                   
                 </div> : <div className="orthocare w-100 card-body  d-flex justify-content-center align-items-center flex-column">
-                  <img src="/orthocare_logos/logoo8.png" className="card-img-top web-images " alt="..."/>
+                  <img src="./orthocare_logos/logoo8.png" className="card-img-top web-images " alt="..."/>
                   <h3 className='orthocare-name'>ORTHOCARE</h3>
                 </div>  }
                
@@ -156,17 +156,17 @@ export  function WebDev() {
                     Web application to serve as a Ground Control Station for the ASV at RoboNation's Roboboat Competition. To monitor and control ASV in real-time. Constantly improving! 
                   </div>
                   <div className="">
-                    <img src="/tools/html-5.png" alt="" className='tools m-1'/>
-                    <img src="/tools/css-3.png" alt="" className='tools m-1'/>
-                    <img src="/tools/js.png" alt="" className='tools m-1'/>
-                    <img src="/tools/mapbox.png" alt="" className='tools m-1'/>
-                    <img src="/tools/flask-removebg-preview.png" alt="" className='tools m-1'/>
+                    <img src="./tools/html-5.png" alt="" className='tools m-1'/>
+                    <img src="./tools/css-3.png" alt="" className='tools m-1'/>
+                    <img src="./tools/js.png" alt="" className='tools m-1'/>
+                    <img src="./tools/mapbox.png" alt="" className='tools m-1'/>
+                    <img src="./tools/flask-removebg-preview.png" alt="" className='tools m-1'/>
                   </div>
 
                   {/* <a href="https://orthocare.life/"><button className='btn btn-outline-light mt-1 rounded-0'>See current version</button></a> */}
                   
                 </div> : <div className="gcs w-100 card-body  d-flex justify-content-center align-items-center flex-column">
-                <img src="/boat(1).png" className="card-img-top gcs-image m-3" alt="..."/>
+                <img src="./boat(1).png" className="card-img-top gcs-image m-3" alt="..."/>
                 <h3 className='text-light'>GCS</h3>
               </div> }
                
@@ -191,15 +191,15 @@ export  function WebDev() {
                     Self ordering app project with authentification and payment integrated for 'Heladeria Oasis'. Order your ice cream from anywhere!
                   </div>
                   <div className="">
-                    <img src="/tools/library.png" alt="" className='tools m-1'/>
-                    <img src="/tools/django-removebg-preview.png" alt="" className='tools m-1'/>
-                    <img src="/tools/heroku-removebg-preview.png" alt="" className='tools m-1'/>
+                    <img src="./tools/library.png" alt="" className='tools m-1'/>
+                    <img src="./tools/django-removebg-preview.png" alt="" className='tools m-1'/>
+                    <img src="./tools/heroku-removebg-preview.png" alt="" className='tools m-1'/>
                   </div>
                   {/* <a href="https://orthocare.life/"><button className='btn btn-outline-light mt-1 rounded-0'>See more</button></a> */}
             
                   
                   </div> : <div className="oasis w-100 card-body  d-flex justify-content-center align-items-center flex-column">
-                  <img src="/ice-cream(1).png" className="card-img-top web-images m-3" alt="..."/>
+                  <img src="./ice-cream(1).png" className="card-img-top web-images m-3" alt="..."/>
                   <h3 className='text-light'>OASIS</h3>
 
                 </div> }
