@@ -29,7 +29,7 @@ export  function MyHead() {
       </Col> 
       <Col>
         <p>
-        Sofware Engineering Student
+        Software Engineering Student
         </p>
       </Col>
       </Row>

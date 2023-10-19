@@ -63,11 +63,20 @@
         /* color: rgb(172, 111, 19); */
     }
     .contact-wrapper{
-        height: 100%;
+        height: 1000px;
     }
     .contactou{
         height: 50px;
         width: 50px;
+    }
+    .cont-text{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .contact-wrapper{
+        height: 1200px;
     }
     
 }

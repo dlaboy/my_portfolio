@@ -8,7 +8,7 @@
     height: 1200px;
   }
   #tarjee {
-    margin: 1rem;
+    margin: 1.5rem;
   }
 }
 
@@ -38,6 +38,7 @@
     width: 20vw;
     min-width: 300px;
     color: black;
+    z-index: -100;
 
 }
 .gcs{

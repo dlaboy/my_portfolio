@@ -61,14 +61,14 @@ export  function Cont() {
               <img src="./email(1).png" className="contactou" alt=""/>
             </div>
             <div className="col ">
-              <h4>Email</h4>
+              <h4 className='cont-text'>Email</h4>
               <input type="hidden" value="diego.laboy1@upr.edu" id='email' />
 
             </div>
             <div className="col  text-secondary">
               { emailCopied
                 ?
-              <p>Email copied</p> : <p>Click to copy </p>
+              <div className='cont-text'>Email copied</div> : <div className='cont-text'>Click to copy </div>
               }
             </div>
           
@@ -78,12 +78,12 @@ export  function Cont() {
               <img src="./phone-call(4).png" className="contactou" alt=""/>
             </div>
             <div className="col ">
-              <h4>Phone </h4>
+              <h4 className='cont-text'>Phone </h4>
               <input type="hidden" value="9394514525" id='phone' />
             </div>
             <div className="col  text-secondary">
 
-              { phoneCopied ?  <p>Phone Number Copied</p> :<p>Click to copy </p> }
+              { phoneCopied ?  <div className='cont-text'>Phone Number Copied</div> :<div className='cont-text'>Click to copy </div> }
 
             </div>
         
@@ -93,12 +93,12 @@ export  function Cont() {
               <img src="./linkedin(1).png" className="contactou" alt=""/>
             </div>
             <div className="col ">
-              <h4>LinkedIn</h4>
+              <h4 className='cont-text'>LinkedIn</h4>
               <input type="hidden" value="www.linkedin.com/in/diego-laboy-7629bb267" id='linkedin' />
 
             </div>
             <div className="col text-secondary">
-              { linkedinCopied ?  <p>LinkedIn Profile Copied</p> :<p>Click to copy </p> }
+              { linkedinCopied ?  <div className='cont-text'>LinkedIn Profile Copied</div> :<div className='cont-text'>Click to copy </div> }
             </div>
             
           
