@@ -95,7 +95,7 @@ export  function Exp() {
             <div className="col w-100 d-flex flex-column align-items-center">
               <div className=""><h4 className='text fw-bold'>Languages</h4></div>
                    
-              <ul className='list-unstyled text-center d-flex flex-lg-row flex-column w-100 justify-content-around'>
+              <ul className='list-unstyled text-center d-flex  flex-column w-100 justify-content-around'>
                 <li><h5>HTML</h5></li>
                 <li><h5>CSS</h5></li>
                 <li><h5>JavaScript</h5></li>
@@ -104,7 +104,7 @@ export  function Exp() {
             <div className="col w-100 d-flex flex-column align-items-center">
               <div className=""><h4 className='text fw-bold'>Dev Tools</h4></div>
             
-              <ul className='list-unstyled text-center flex-lg-row flex-column w-100 justify-content-around'>
+              <ul className='list-unstyled text-center  flex-column w-100 justify-content-around'>
                 <li><h5>React</h5></li>
                 <li><h5>Boostrap</h5></li>
                 <li><h5>
@@ -135,12 +135,13 @@ export  function Exp() {
             <div className="col w-100 d-flex flex-column align-items-center h-100">
               <div className=""><h4 className='text fw-bold'>Dev Tools</h4></div>
             
-              <ul className='list-unstyled text-center d-flex flex-lg-row flex-column w-100 justify-content-around'>
+              <ul className='list-unstyled text-center d-flex  flex-column w-100 justify-content-around'>
                 <li><h5>Django</h5></li>
                 <li><h5> Express</h5></li>
                 <li><h5> NodeJS</h5></li>
                 <li><h5> Flask</h5></li>
                 <li><h5> MongoDB</h5></li>
+                <li><h5> Github</h5></li>
               
               </ul>
 

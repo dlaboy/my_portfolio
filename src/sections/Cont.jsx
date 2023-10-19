@@ -51,11 +51,11 @@ export  function Cont() {
 },[])
   return (
     <div id="contact" className="row d-flex justify-content-center align-items-center flex-column ">
-      <div className=" row d-flex flex-column justify-content-center align-items-center contact-wrapper">
-        <div className="titulazo-contact bg-dark col d-flex align-items-center justify-content-center  fw-bolder w-75  ">
+      <div className=" col d-flex flex-column justify-content-center align-items-center contact-wrapper ">
+        <div className="titulazo-contact col  bg-dark d-flex align-items-center justify-content-center fw-bolder ">
           <h1 className="fw-bolder">Contact</h1>
         </div>
-        <div className="col d-flex flex-wrap align-items-center justify-content-center bg-dark  w-75">
+        <div className="cards-wrapper col d-flex flex-wrap align-items-center justify-content-center bg-dark ">
           <div className=" col d-flex flex-column text-center  tarjeee email-card">
             <div className="col ">
               <img src="/email(1).png" className="contactou" alt=""/>
