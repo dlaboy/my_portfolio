@@ -24,6 +24,7 @@
     background-size: auto 85%;
     background-repeat: no-repeat;
     background-position: center center;
+
     width: 45vh;
     max-width: 400px;
     height: 85vh;
@@ -39,10 +40,12 @@
     .deck{
       width: 285px;
 
+
     }
     .deck > div{
       max-width: 300px;
       max-height:500px;
+
 
     /* width: 35vh; */
 

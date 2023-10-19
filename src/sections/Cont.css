@@ -1,5 +1,6 @@
 .contactou{
-    height: 10vh;
+    height: 100px;
+    width: 100px;
 }
 /* .titulazo-contact{
     color: rgb(135, 204, 204);
@@ -7,6 +8,7 @@
 .titulazo-contact{
     color: whitesmoke;
     /* color: rgb(172, 111, 19); */
+    
 }
 
 #contact{
@@ -16,17 +18,47 @@
     background-size: cover;
     background-position: bottom;
     color: grey;
+    width: 100vw;
    
 
 
 
 }
+@media screen and (max-width:1400px) {
+    #contact{
+        height: 700px;
+    }
+    .contact-wrapper{
+        height: 700px;
+
+    }
+    
+}
+@media screen and (max-width: 576px) {
+    .titulazo-contact{
+        color: whitesmoke;
+        width: 100%;
+        /* color: rgb(172, 111, 19); */
+    }
+   
+    
+}
+@media screen and (max-width: 768px) {
+    .contactou{
+        height: 75px;
+        width: 75px;
+    }
+    
+   
+    
+}
 
 .tarjeee{
-    height: 40vh;
-    /* background: linear-gradient(rgba(0, 0, 0, 0),transparent),url('./imgs/pexels-photo-3137052.jpg'); */
-    width: 25vw;
-    min-width: 12rem;
+    height: 35vh;
+    max-height: 10rem;
+    /* background-color: rgba(173, 173, 173, 0.948); */
+    width: 20vw;
+    min-width: 300px;
 
 }
 .tarjeee:hover{
