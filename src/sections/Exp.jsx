@@ -63,7 +63,7 @@ export  function Exp() {
  
   const handleFileDownload = () => {
     setResumeLoading(true)
-    const fileUrl = 'https://drive.google.com/file/d/1vjy9TmVKHhsbXiog5l709ZC_ZFrSe9Ck/view?usp=drive_link';
+    const fileUrl = 'https://drive.google.com/file/d/1DGK48wLl5X69uFkYCX3tw3qwxDy1os3C/view?usp=sharing';
 
     const anchor = document.createElement('a');
     anchor.href = fileUrl;
