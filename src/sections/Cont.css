@@ -65,7 +65,10 @@
     .contact-wrapper{
         height: 100%;
     }
-   
+    .contactou{
+        height: 50px;
+        width: 50px;
+    }
     
 }
 @media screen and (max-width: 768px) {

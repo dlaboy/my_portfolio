@@ -75,7 +75,7 @@ export  function Exp() {
   }
 
   return (
-    <div className="containerr d-flex justify-content-center align-items-center">
+    <div id='exp' className="containerr d-flex justify-content-center align-items-center">
 
 
       <div id="resume" className="city cv d-flex flex-column align-items-center shadow bg-body-tertiary rounded-4">

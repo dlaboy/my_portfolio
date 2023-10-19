@@ -4,7 +4,7 @@ import './About.css'
 
 export  function About() {
   return (
-    <Row className='about-me d-flex text-center shadow-lg justify-content-center '>
+    <Row id='about' className='about-me d-flex text-center shadow-lg justify-content-center '>
      
         <Col className='textou col fw-bolder d-flex justify-content-center align-items center flex-column'>
             <h1 className=" fw-bolder acheuno mb-4">A little bit about me...</h1>
