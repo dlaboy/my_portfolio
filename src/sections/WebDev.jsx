@@ -85,7 +85,7 @@ export  function WebDev() {
 
       <div className="head row text-center d-flex flex-column  w-100 ">
            
-           <div className="col saludo fw-bolder">
+           <div className="col saludo fw-bolder mt-5 ">
                <h2 className="fw-bolder">My Work: Web Development</h2>
            </div>
            <div className="col">

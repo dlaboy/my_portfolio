@@ -9,17 +9,18 @@ export  function Cont() {
   const [emailCopied, emailIsCopied] = useState(false)
   const [phoneCopied, phoneIsCopied] = useState(false)
   const [linkedinCopied, linkedinIsCopied] = useState(false)
+  const [githubCopied, githubIsCopied] = useState(false)
 
   useEffect(()=>{
     const phone = document.querySelector('.phone-card');
     
     phone.addEventListener('click',function(){
-      const phoneNumber = document.getElementById('phone');
+      const p = document.getElementById('phone');
     
-      phoneNumber.select();
+      p.select();
       
       
-      navigator.clipboard.writeText(phoneNumber.value).then(console.log("phone number copied"))
+      navigator.clipboard.writeText(p.value).then(console.log("phone number copied"))
 
       phoneIsCopied(true)
 
@@ -27,30 +28,43 @@ export  function Cont() {
     const email = document.querySelector('.email-card');
       
     email.addEventListener('click',function(){
-      const phoneNumber = document.getElementById('email');
+      const e = document.getElementById('email');
     
-      phoneNumber.select();
+      e.select();
 
-      navigator.clipboard.writeText(phoneNumber.value).then(console.log("email copied"))
+      navigator.clipboard.writeText(e.value).then(console.log("email copied"))
 
       emailIsCopied(true)
     })
     const linkedin = document.querySelector('.linkedin-card');
         
     linkedin.addEventListener('click',function(){
-      const phoneNumber = document.getElementById('linkedin');
+      const li = document.getElementById('linkedin');
 
-      phoneNumber.select();
+      li.select();
 
 
-      navigator.clipboard.writeText(phoneNumber.value).then(console.log("linkedin copied"))
+      navigator.clipboard.writeText(li.value).then(console.log("linkedin copied"))
 
       linkedinIsCopied(true)
 
     })
+    const github = document.querySelector('.github-card');
+        
+    github.addEventListener('click',function(){
+      const gh = document.getElementById('github');
+
+      gh.select();
+
+
+      navigator.clipboard.writeText(gh.value).then(console.log("github copied"))
+
+      githubIsCopied(true)
+
+    })
 },[])
   return (
-    <div id="contact" className="row d-flex justify-content-center align-items-center flex-column ">
+    <div id="contact" className=" d-flex justify-content-center align-items-center flex-column w-100 ">
       <div className=" col d-flex flex-column justify-content-center align-items-center contact-wrapper ">
         <div className="titulazo-contact col  bg-dark d-flex align-items-center justify-content-center fw-bolder ">
           <h1 className="fw-bolder">Contact</h1>
@@ -99,6 +113,21 @@ export  function Cont() {
             </div>
             <div className="col text-secondary">
               { linkedinCopied ?  <div className='cont-text'>LinkedIn Profile Copied</div> :<div className='cont-text'>Click to copy </div> }
+            </div>
+            
+          
+          </div>
+          <div className="col  d-flex flex-column text-center  tarjeee github-card">
+            <div className="col ">
+              <img src="./github.png" className="contactou" alt=""/>
+            </div>
+            <div className="col ">
+              <h4 className='cont-text'>Github</h4>
+              <input type="hidden" value="https://github.com/dlaboy" id='github' />
+
+            </div>
+            <div className="col text-secondary">
+              { githubCopied ?  <div className='cont-text'>Github Copied</div> :<div className='cont-text'>Click to copy </div> }
             </div>
             
           

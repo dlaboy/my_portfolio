@@ -30,7 +30,6 @@
     background-size: cover;
     background-position: bottom;
     color: grey;
-    width: 100vw;
     
     
     
@@ -74,18 +73,13 @@
     }
     
 }
-@media screen and (max-width: 450px) {
-    .contact-wrapper{
-        height: 1200px;
-    }
-    
-}
+
 @media screen and (max-width: 768px) {
     .contactou{
         height: 75px;
         width: 75px;
     }
-    
+ 
    
     
 }
@@ -95,7 +89,8 @@
     max-height: 15rem;
     /* background-color: rgba(173, 173, 173, 0.948); */
     width: 25vw;
-    min-width: 300px;
+    min-width: 200px;
+    max-width: 300px;
 
 }
 .tarjeee:hover{
@@ -107,12 +102,26 @@
 }
 
 @media screen and (max-width: 826px) {
-    .tarjeee{
-        height: 20vh;
-        /* max-height: 15rem; */
-    }
+    
     .contactou{
         height: 75px;
         width: 75px;
     }
+}
+@media screen and (max-width: 450px) {
+    .contact-wrapper{
+        height: 1300px;
+    }
+    .contactou{
+        height: 50px;
+        width: 50px;
+    }
+    .tarjeee{
+        min-width: 100px;
+        max-width: 150px;
+
+
+        /* max-height: 15rem; */
+    }
+    
 }

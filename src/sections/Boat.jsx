@@ -12,8 +12,8 @@ export function Boat() {
   
   return (
     <div id="roboboat" className="d-flex flex-column flex-lg-row container  ">
-        <div className="robo-text row d-flex flex-column text-start h-100  w-50 w-auto m-5">
-              <h1 className="fw-bolder saludo ">UPRM Roboboat Team</h1>
+        <div className="robo-text row d-flex flex-column text-start h-100  w-50 w-auto mt-5 mb-5">
+              <h1 className="fw-bolder saludo text-center mb-5">UPRM Roboboat Team</h1>
             <div className="col h-75 d-flex flex-column text-start pb-5">
                 <div className="col d-flex flex-row text-secondary">
                     <h5 className="ache saludo me-5">

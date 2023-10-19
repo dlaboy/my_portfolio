@@ -1,14 +1,14 @@
 .webdev{
     height: 100vh;
     position: relative;
-    overflow: hidden;
 }
 @media screen and (max-width: 800px)  {
   .webdev{
     height: 1200px;
   }
   #tarjee {
-    margin: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 

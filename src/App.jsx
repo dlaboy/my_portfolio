@@ -25,7 +25,7 @@ function App() {
       <Boat/>
       <WebDev/>
       <Cont/>
-      <Footer/>
+      {/* <Footer/> */}
 
     </>
   )
