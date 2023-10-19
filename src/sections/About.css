@@ -3,7 +3,7 @@
     color: white;
 }
 
-.te{
+.achecinco{
     line-height: 40px;
     /* text-align: justify; */
     width: 75%;
@@ -23,4 +23,24 @@
 
 .about-me{
     min-height: 500px;
+}
+
+@media screen and (max-width: 576px) {
+  .acheuno{
+    font-size: 30px;
+  }
+  .achecinco{
+    font-size: 16px;
+    margin-bottom: 2rem;
+
+
+  }
+}
+@media screen and (max-width: 421px) {
+    .acheuno{
+        font-size: 25px;
+      }
+    .achecinco{
+        font-size: 14px;
+    }
 }

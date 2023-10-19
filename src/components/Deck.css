@@ -18,7 +18,7 @@
     touch-action: none;
     cursor: pointer;
   }
-  
+
   .deck > div {
     background-color: white;
     background-size: auto 85%;
@@ -32,4 +32,28 @@
     border-radius: 10px;
     box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
   }
+@media screen and (max-width:1400px) {
+    #roboboat{
+        height: 500px;
+    }
+    .deck{
+      width: 285px;
+
+    }
+    .deck > div{
+      max-width: 300px;
+      max-height:500px;
+
+    /* width: 35vh; */
+
+    }
+}
+@media screen and (max-width:421px) {
+  .containel{
+    display: none;
+  }
+  
+}
+ 
+ 
   

@@ -55,8 +55,9 @@ export function Deck() {
     })
     // Now we're just mapping the animated values to our view, that's it. Btw, this component only renders once. :-)
     return (
-      <>
+      <div className='containel d-lg-flex d-none justify-content-center'>
         {props.map(({ x, y, rot, scale }, i) => (
+          
           <animated.div className="deck d-flex flex-column text-secondary" key={i} style={{ x, y }}>
             <p>Hold Image and Swipe to the left </p>
             {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
@@ -70,6 +71,6 @@ export function Deck() {
           </animated.div>
           
         ))}
-      </>
+      </div>
     )
   }

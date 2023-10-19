@@ -3,6 +3,7 @@
     position: relative;
     overflow: hidden;
 }
+
 .web-images{
   /* height: 48%; */
   max-width: 150px;
@@ -18,13 +19,16 @@
   background: linear-gradient(rgba(1, 50, 113, 0.732),rgba(1, 113, 104, 0.732)),url('public/orthocare_cont/ortho_card_img.jpg');
   background-size: cover;
 }
+.tools{
+  height: 50px;
+}
 #tarjee {
     height: 35vh;
     max-height: 20rem;
     /* background-color: rgba(173, 173, 173, 0.948); */
     background-image: url('public/Screenshot/ 2023-09-21/ 181740.png');
     width: 20vw;
-    min-width: 12rem;
+    min-width: 300px;
     color: black;
 
 }

@@ -1,9 +1,13 @@
 
-#roboboat{
+/* #roboboat{
     height: 85vh;
+} */
+#roboboat{
+    height: 500px;
 }
-.deck-wrapper{
-    position: relative;
-    top: 100px;
-    right: 0px;
+@media screen and (max-width:421px) {
+    #roboboat{
+        height: 1200px;
+    }
+   
 }

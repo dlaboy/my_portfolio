@@ -98,7 +98,7 @@ export  function WebDev() {
       </div>
       <div className=" w-100 d-flex align-items-center justify-content-center flex-column ">
 
-        <div className="tarjetas  d-flex   flex-xl-wrap h-100 justify-content-around pt-5 w-75 ">
+        <div className="tarjetas  d-flex   flex-wrap h-100 justify-content-around pt-5 w-75 ">
           <animated.div
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => {
@@ -116,6 +116,13 @@ export  function WebDev() {
               { isHovered ? <div className="proj-back orthocare-back w-100 card-body  d-flex justify-content-center align-items-center flex-column ">
                   <div className="text-light m-1">
                     Landing page for emerging orthopedics company. Created logo and color palette from scratch. Integrated Professional Emails and Hosting. 
+                  </div>
+                  <div className="">
+                    <img src="/tools/html-5.png" alt="" className='tools m-1'/>
+                    <img src="/tools/css-3.png" alt="" className='tools m-1'/>
+                    <img src="/tools/js.png" alt="" className='tools m-1'/>
+                    <img src="/tools/namecheap-removebg-preview.png" alt="" className='tools m-1'/>
+                    <img src="/tools/blue.png" alt="" className='tools m-1'/>
                   </div>
                   <a href="https://orthocare.life/"><button className='btn btn-outline-light mt-1 rounded-0'>Visit website</button></a>
 
@@ -148,7 +155,15 @@ export  function WebDev() {
                   <div className="text-light m-1">
                     Web application to serve as a Ground Control Station for the ASV at RoboNation's Roboboat Competition. To monitor and control ASV in real-time. Constantly improving! 
                   </div>
-                  <a href="https://orthocare.life/"><button className='btn btn-outline-light mt-1 rounded-0'>See current version</button></a>
+                  <div className="">
+                    <img src="/tools/html-5.png" alt="" className='tools m-1'/>
+                    <img src="/tools/css-3.png" alt="" className='tools m-1'/>
+                    <img src="/tools/js.png" alt="" className='tools m-1'/>
+                    <img src="/tools/mapbox.png" alt="" className='tools m-1'/>
+                    <img src="/tools/flask-removebg-preview.png" alt="" className='tools m-1'/>
+                  </div>
+
+                  {/* <a href="https://orthocare.life/"><button className='btn btn-outline-light mt-1 rounded-0'>See current version</button></a> */}
                   
                 </div> : <div className="gcs w-100 card-body  d-flex justify-content-center align-items-center flex-column">
                 <img src="/boat(1).png" className="card-img-top gcs-image m-3" alt="..."/>
@@ -175,7 +190,13 @@ export  function WebDev() {
                   <div className="text-light m-1">
                     Self ordering app project with authentification and payment integrated for 'Heladeria Oasis'. Order your ice cream from anywhere!
                   </div>
-                  <a href="https://orthocare.life/"><button className='btn btn-outline-light mt-1 rounded-0'>See more</button></a>
+                  <div className="">
+                    <img src="/tools/library.png" alt="" className='tools m-1'/>
+                    <img src="/tools/django-removebg-preview.png" alt="" className='tools m-1'/>
+                    <img src="/tools/heroku-removebg-preview.png" alt="" className='tools m-1'/>
+                  </div>
+                  {/* <a href="https://orthocare.life/"><button className='btn btn-outline-light mt-1 rounded-0'>See more</button></a> */}
+            
                   
                   </div> : <div className="oasis w-100 card-body  d-flex justify-content-center align-items-center flex-column">
                   <img src="/ice-cream(1).png" className="card-img-top web-images m-3" alt="..."/>

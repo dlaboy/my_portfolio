@@ -95,26 +95,26 @@ export  function Exp() {
             <div className="col w-100 d-flex flex-column align-items-center">
               <div className=""><h4 className='text fw-bold'>Languages</h4></div>
                    
-              <ul className='list-unstyled text-center d-flex flex-row'>
+              <ul className='list-unstyled text-center d-flex flex-lg-row flex-column w-100 justify-content-around'>
                 <li><h5>HTML</h5></li>
-                <li><h5>, CSS</h5></li>
-                <li><h5>, JavaScript</h5></li>
+                <li><h5>CSS</h5></li>
+                <li><h5>JavaScript</h5></li>
               </ul>
             </div>
             <div className="col w-100 d-flex flex-column align-items-center">
               <div className=""><h4 className='text fw-bold'>Dev Tools</h4></div>
             
-              <ul className='list-unstyled text-center d-flex flex-row '>
+              <ul className='list-unstyled text-center flex-lg-row flex-column w-100 justify-content-around'>
                 <li><h5>React</h5></li>
-                <li><h5>, Boostrap</h5></li>
+                <li><h5>Boostrap</h5></li>
                 <li><h5>
-                , Figma (UI Design)
+                Figma (UI Design)
                   </h5></li>
               </ul>
 
             </div>
           </div>
-          <div className="col d-flex flex-column back justify-content-center align-items-center border-end  ">
+          <div className="col d-flex flex-column back justify-content-center align-items-center border-end ">
             <div className="col text-center">
                 <img  className="exp-images"src="/database.png" alt="" />
                 <h3 className='mt-3'>Back End</h3>
@@ -123,24 +123,24 @@ export  function Exp() {
             <div className="col w-100 d-flex flex-column align-items-center h-100">
               <div className=""><h4 className='text fw-bold'>Languages</h4></div>
                    
-              <ul className='list-unstyled text-center d-flex flex-row'>
+              <ul className='list-unstyled text-center flex-lg-row flex-column w-100 justify-content-around'>
                 <li><h5>Python</h5></li>
-                <li><h5>, Java</h5></li>
-                <li><h5>, JavaScript</h5></li>
-                <li><h5>, C++</h5></li>
-                <li><h5>, PHP</h5></li>
-                <li><h5>, SQL</h5></li>
+                <li><h5>Java</h5></li>
+                <li><h5>JavaScript</h5></li>
+                <li><h5>C++</h5></li>
+                <li><h5>PHP</h5></li>
+                <li><h5>SQL</h5></li>
               </ul>
             </div>
             <div className="col w-100 d-flex flex-column align-items-center h-100">
               <div className=""><h4 className='text fw-bold'>Dev Tools</h4></div>
             
-              <ul className='list-unstyled text-center d-flex flex-row'>
+              <ul className='list-unstyled text-center d-flex flex-lg-row flex-column w-100 justify-content-around'>
                 <li><h5>Django</h5></li>
-                <li><h5>, Express</h5></li>
-                <li><h5>, NodeJS</h5></li>
-                <li><h5>, Flask</h5></li>
-                <li><h5>, MongoDB</h5></li>
+                <li><h5> Express</h5></li>
+                <li><h5> NodeJS</h5></li>
+                <li><h5> Flask</h5></li>
+                <li><h5> MongoDB</h5></li>
               
               </ul>
 
@@ -151,8 +151,8 @@ export  function Exp() {
           
 
         </div>
-          <div className="row d-flex w-100 justify-content-center mt-5 mb-5 ">
-              <button onClick={handleFileDownload} className="download border-0 p-3   shadow h-100 w-25">
+          <div className="row d-flex  justify-content-center mt-5 mb-5 ">
+              <button onClick={handleFileDownload} className="download border-0 p-3   shadow h-100 ">
                 {resumeLoading ? (<>Redirecting</>): (<>Download CV</>) }
               </button>
           </div>
