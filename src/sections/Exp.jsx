@@ -63,11 +63,11 @@ export  function Exp() {
  
   const handleFileDownload = () => {
     setResumeLoading(true)
-    const fileUrl = 'https://drive.google.com/file/d/1mNF4egpERSrvgpwR3RmzUPOB4frdrFvk/view?usp=share_link';
+    const fileUrl = 'https://drive.google.com/file/d/1ryulQPBBsDgiOBxTOgDGXtR-Q3hhYAq3/view?usp=share_link';
 
     const anchor = document.createElement('a');
     anchor.href = fileUrl;
-    anchor.download = 'Laboy_Diego_Resume';
+    anchor.download = 'Diego_Laboy_Resume_2024';
     // anchor.click();
 
     window.open(fileUrl, '_blank');
