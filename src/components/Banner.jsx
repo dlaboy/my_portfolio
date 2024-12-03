@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-export default function Banner() {
+export function Banner() {
     const banner = useRef()
 
     const atOptions = {
