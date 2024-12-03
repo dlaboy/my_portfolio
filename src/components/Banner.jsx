@@ -5,8 +5,8 @@ export function Banner() {
     const atOptions = {
         key: '41f36f890b09799367092d025b677bce',
         format: 'iframe',
-        height: 50,
-        width: 320,
+        height: 60,
+        width: 468,
         params: {},
     }
     useEffect(() => {
